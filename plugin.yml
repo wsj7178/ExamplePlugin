@@ -1,6 +1,6 @@
 name: ExamplePlugin
 main: ExamplePlugin\ExamplePlugin
-version: 0.2-Alpha
+version: 1.1-Alpha
 author: ExampleMaker
 api: [1.12.0]
 
