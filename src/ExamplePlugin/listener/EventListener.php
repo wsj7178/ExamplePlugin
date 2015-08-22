@@ -8,11 +8,20 @@ use pocketmine\plugin\Plugin;
 use ExamplePlugin\listener\other\ListenerLoader;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
+use pocketmine\Server;
 
 class EventListener implements Listener {
+	/**
+	 *
+	 * @var Plugin
+	 */
 	private $plugin;
 	private $db;
 	private $listenerloader;
+	/**
+	 *
+	 * @var Server
+	 */
 	private $server;
 	public function __construct(Plugin $plugin) {
 		$this->plugin = $plugin;
@@ -21,6 +30,7 @@ class EventListener implements Listener {
 		$this->server = Server::getInstance ();
 		
 		// $this->registerCommand("명령어이름", "퍼미션명", "명령어설명", "명령어사용법-한줄");
+		$this->getServer ()->getPluginManager ()->registerEvents ( $this, $plugin );
 	}
 	public function registerCommand($name, $permission, $description, $usage) {
 		$name = $this->db->get ( $name );
