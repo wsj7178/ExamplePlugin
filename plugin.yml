@@ -1,10 +1,13 @@
 name: ExamplePlugin
-main: ExamplePlugin\ExamplePlugin
-version: 1.1-Alpha
-author: ExampleMaker
+version: "1.2-Alpha"
+
+main: ifteam\example\ExamplePlugin
 api: [1.12.0]
 
+author: ExampleDeveloper
+website: "http://mcpekorea.com"
+
 permissions:
- example:
-  descript: "example permission"
-  default: true
+  example:
+    description: "ExamplePlugin"
+    default: true
