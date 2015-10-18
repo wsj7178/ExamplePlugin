@@ -1,40 +1,11 @@
-version: 1
+m_version: 1
+
+#(EN) ENGLISH
+eng: true
+#eng-hello: "Hello!"
+
+#(KO) KOREAN
+kor: true
+#kor-hello: "안녕하세요!"
 
 
-
-# ENGLISH (ENG)
-eng: "English"
-eng-default-prefix: "[SERVER] "
-
-eng-command-name: "example"
-eng-command-description: "An example command"
-eng-cpmmand-usage: "/example <foo|bar>"
-
-eng-help-message: "It's an example plugin XD"
-eng-wrong-command: "Wrong command :("
-
-
-eng-hello-world: "foo"
-eng-hello-world-result: "Hello, world!"
-
-eng-dlrow-olleh: "bar"
-eng-dlrow-olleh-result: "!dlrow ,olleH"
-
-
-
-# KOREAN (KOR)
-kor: "한국어"
-kor-default-prefix: "[서버] "
-
-kor-command-name: "예제"
-kor-command-description: "명령어 예제"
-kor-cpmmand-usage: "/예제 <어쩌구|저쩌구>"
-
-kor-help-message: "플러그인 예제입니다 >_<"
-kor-wrong-command: "잘못된 명령어입니다 ㅠ_ㅠ"
-
-kor-hello-world: "어쩌구"
-kor-hello-world-result: "안녕하세요!"
-
-kor-dlrow-olleh: "저쩌구"
-kor-dlrow-olleh-result: "!요세하녕안"
