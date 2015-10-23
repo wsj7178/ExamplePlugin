@@ -48,7 +48,7 @@ class EventListener implements Listener {
 				// TODO - 명령어만 쳤을경우 도움말 표시
 				return true;
 			}
-			switch (strtlower ( $args [0] )) {
+			switch (strtolower ( $args [0] )) {
 				case $this->db->get ( "" ) :
 					// TODO ↗ 빈칸에 세부명령어
 					// TODO 세부명령어 실행시 원하는 작업 실행
